@@ -34,8 +34,43 @@ body {
   gap: 0.3rem;
 }
 
+/* Header */
+
 header {
   grid-area: header;
+  background: linear-gradient(135deg, #8844ee, #b07dfb);
+  padding: 30px;
+
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+}
+
+header .logo {
+  max-width: 200px;
+}
+
+header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+header nav ul li + li {
+  margin-left: 30px;
+}
+
+header nav a {
+  display: block;
+  padding: 10px;
+  color: white;
+  font-size: 1.125rem;
+  background: rgba(0,0,0,.1);
+  border-radius: 5px;
+  transition: 0.2s;
+}
+
+header nav a:hover {
+  background: rgba(0,0,0,.5);
 }
 
 .sidenav {
