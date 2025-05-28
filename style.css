@@ -114,4 +114,11 @@ main {
 
 footer {
   grid-area: footer;
+  background: linear-gradient(135deg, #8844ee, #B07DFB);
+}
+
+footer p {
+  color: white;
+  text-align: center;
+  padding: 30px;
 }
