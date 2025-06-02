@@ -196,7 +196,7 @@ main img.wolf-2 {
   align-self: end;
 }
 
-main blockquote {
+main blockquote, main .attributes {
   background: linear-gradient(135deg, #8844ee, #B07DFB);
   border-radius: 5px;
   padding: 30px;
@@ -210,6 +210,17 @@ main blockquote p {
   max-width: 500px;
   margin: o auto;
   color: white;
+}
+
+main .attributes li {
+  color: white;
+  font-family: Courier, monospace;
+  font-size: 1.125em;
+  padding: 15px;
+}
+
+main .attributes li + li {
+  border-top: 1px solid #b07dfb;
 }
 
 /* Ads */
