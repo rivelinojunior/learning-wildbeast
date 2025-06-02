@@ -97,8 +97,32 @@ header nav a:hover {
   background: #B07DFB;
 }
 
+
+/* Main content */
+
 main {
   grid-area: content;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+
+main .title {
+  color: #b07dfb;
+}
+
+main .title h1 {
+  font-size: 3.75em;
+  font-weight: 700;
+  line-height: 1;
+}
+
+main .title span {
+  font-size: 0.875em;
+  font-style: italic;
 }
 
 /* Ads */
