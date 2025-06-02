@@ -149,13 +149,13 @@ main .characteristics div span {
   color: #b07dfb;
 }
 
-.number {
+main .characteristics div span.number {
   font-size: 3em;
   line-height: 1;
   margin: 10px auto;
 }
 
-.label {
+main .characteristics div span.label {
   background: white;
   border-radius: 0px 0px 5px 5px;
   padding: 5px 0px;
@@ -167,6 +167,33 @@ main .characteristics div span {
   display: block;
   margin: 0 auto;
   color: #b07dfb;
+}
+
+main .col-wide {
+  grid-column: 1 / -1;
+}
+
+main p {
+  font-size: 1.2em;
+  line-height: 1.6;
+  letter-spacing: -0.005em;
+  color: rgba(0,0,0,.7);
+}
+
+main p.emphasis {
+  font-size: 0.875em;
+  color: #b07dfb;
+  max-width: 16em;
+  align-self: end;
+}
+
+main img.wolf-1 {
+  grid-row: span 2;
+  align-self: end;
+}
+
+main img.wolf-2 {
+  align-self: end;
 }
 
 /* Ads */
