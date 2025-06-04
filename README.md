@@ -42,7 +42,7 @@ To view or edit this project locally:
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/wildbeast.git
+git clone git@github.com:rivelinojunior/learning-wildbeast.git
 ```
 2. Open the index.html file in your browser or a code editor.
 
