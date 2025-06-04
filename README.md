@@ -4,7 +4,7 @@
 
 ## 🚀 Live Demo
 
-You can view the live site here: [https://your-username.github.io/wildbeast](https://your-username.github.io/wildbeast)
+You can view the live site here: [https://rivelinojunior.github.io/learning-wildbeast](https://rivelinojunior.github.io/learning-wildbeast)
 
 ## 📸 Preview
 
